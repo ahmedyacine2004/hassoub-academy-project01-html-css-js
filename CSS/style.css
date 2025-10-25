@@ -95,7 +95,7 @@ header .current a {
 }
 
 #newsletter form {
-  font-family: "El Messiri"; 
+  font-family: "El Messiri";
   float: right;
   margin: 15px;
   display: flex;
@@ -117,3 +117,36 @@ header .current a {
   color: #353637;
   margin-left: 10px;
 }
+
+/* Boxes section */
+
+#boxes {
+  margin: 20px;
+  padding: 60px 120px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.box {
+  text-align: center;
+  margin-left: 10px;
+}
+
+@media (max-width: 1200px) {
+  #boxes {
+    flex-direction: column;
+  }
+}
+
+/* footer */
+
+footer {
+  padding: 20px;
+  color: #ffffff;
+  background-color: #32a0c2;
+  text-align: center;
+}
+
